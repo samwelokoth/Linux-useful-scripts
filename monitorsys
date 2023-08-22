@@ -1,0 +1,14 @@
+#! /bin/bash
+echo "Whats my hostname:"
+hostname
+
+echo "All info about the kernel"
+
+uname -a 
+
+tail -10 /var/adm/messages
+last root| head -4
+ls -al /etc/password
+ps -ef | grep sendmail
+
+echo "Bye....for now.."

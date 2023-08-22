@@ -1,0 +1,21 @@
+#!bin/sh
+
+echo "The following script will walk you through basic linux foundations "
+
+echo "Creation of folders :"
+mkdir  folder1 folder2 folder3 folder4
+
+echo " To list the folders:"
+ ls -l | grep "fol"
+echo " To move say to folder2:"
+
+cd folder2 
+echo "Now I am in folder two">>changed.txt
+
+cat - changed.txt;
+echo "Preparing to exit this folder....20%...67%...left successfully"
+cd ..
+
+echo " To remove the folders created:"
+
+rm -dfr folder*

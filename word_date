@@ -1,0 +1,6 @@
+#!bin/bash
+/bin/date
+/bin/wordlists
+/bin/geoipupdate
+echo "date,time and user information already given"
+

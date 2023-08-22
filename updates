@@ -1,0 +1,17 @@
+#!bin/bash
+echo "Updating your  systems...Relax and Drink some Tea....."
+echo "________________
+                      \sam/ \3ssm4ticood3r/-----------------
+		     <<<<<< -    -  -   -  -  -   -->>>>>>>>>>>>>
+                       \___/   \____/ \----/ \----/
+		       LATENIGHT CLUB!(00)||||
+		       ---------------------------------------
+		       ---------------------------------------
+
+"
+sudo apt update&&sudo apt upgrade&&sudo apt clean
+echo " Removing unused applications"
+sudo apt autoremove -y  
+echo "cleaning packages  and fixing missing dependencies ..."
+sudo apt --fix-broken install
+echo "Done updating and fixing-packages ...Goodwork $USER"

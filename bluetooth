@@ -1,0 +1,11 @@
+#!bin/bash
+
+echo "Run the following script with administrative privelleges"
+
+sudo systemctl start bluetooth
+
+sudo systemctl enable bluetooth
+
+
+echo "Turning on bluetooth>>>10%...30%...{69%}____{100%}...."
+echo "Bluetooth has been enabled successfully:))"

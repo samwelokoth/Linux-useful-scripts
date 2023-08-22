@@ -1,0 +1,5 @@
+!#bin/bash
+
+sudo apt update && sudo apt install btrfs-progs snapper snapper-gui grub-btrfs && sudo cp /usr/share/snapper/config-templates/default /etc/snapper/configs/root && sudo sed -i 's/^SNAPPER_CONFIGS=\"\"/SNAPPER_CONFIGS=\"root\"/' /etc/default/snapper && sudo sed -i '/# PRUNENAMES=/ a PRUNENAMES = ".snapshots"' /etc/updatedb.conf && sudo reboot
+
+

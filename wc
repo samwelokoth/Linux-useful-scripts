@@ -1,0 +1,8 @@
+#!bin/sh
+
+echo "The total number of words in rockyou.txt are:"
+
+wc  /usr/share/wordlists/rockyou.txt
+
+
+

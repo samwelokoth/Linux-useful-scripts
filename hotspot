@@ -1,0 +1,4 @@
+#!bin/bash
+echo "Please input your password boss"
+wihotspot
+

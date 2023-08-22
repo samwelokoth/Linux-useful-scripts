@@ -1,0 +1,4 @@
+#!bin/bash
+echo " Enjoy your music sir...lots of respect"
+mpv /home/assmatic10/Music/*
+
