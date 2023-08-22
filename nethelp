@@ -1,0 +1,11 @@
+ 1064  sudo iptables -L
+ 1076  iptables -F INPUT
+ 1077  iptables -F OUTPUT
+ 1078  iptables -F INPUT ACCEPT
+ 1079  iptables -F INPUT-ACCEPT
+ 1080  iptables
+ 1081  iptables -h
+ 1082  iptables -h | grep INPUT
+ 1084  iptables -F
+ 1090  history | grep iptables >/home/assmatic10/Documents/usefulscripts nethelp
+the following commands helped me restore the network connectivity problem , editing the ip tables and flushing out the inputs and outputs , then restarting the network manager using #systemctl restart NetworkManager

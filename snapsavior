@@ -1,0 +1,3 @@
+to solve the snap related issues run the commands below //sudo apparmor_parser -r /etc/apparmor.d/*snap-confine*
+sudo apparmor_parser -r /var/lib/snapd/apparmor/profiles/snap-confine*
+
