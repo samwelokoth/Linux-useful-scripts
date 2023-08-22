@@ -1,0 +1,6 @@
+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
+
+
+format :
+git clone https://<authtoken>@github.com/username/repo.git
+git clone https://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@github.com/samwelokoth/alx-low_level_programming
